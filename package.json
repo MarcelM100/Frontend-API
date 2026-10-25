@@ -1,0 +1,11 @@
+{
+  "name": "frontend-api",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Portal básico de Pokémon que consume PokéAPI con fetch",
+  "scripts": {
+    "start": "node server.js",
+    "check": "node --check server.js && node --check js/app.js"
+  },
+  "engines": { "node": ">=18" }
+}
